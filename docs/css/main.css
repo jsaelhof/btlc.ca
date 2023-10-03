@@ -1,0 +1,371 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	outline: none;
+}
+
+a img {
+	border: none;
+}
+
+p {
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+li {
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+li ul {
+	padding-top: 4px;
+	list-style-type: circle;
+}
+
+body {
+	background-image: url(../images/background_gradient.jpg);
+	background-repeat: repeat-x;
+	background-color: #ffde00;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 62.5%;
+}
+
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+#page {
+	width: 825px;
+	margin-left: 86px;
+}
+
+#pageTitle {
+	float: right;
+}
+
+#pageBody {
+	background-image: url(../images/page_background.png);
+	background-repeat: repeat-y;
+	min-height: 450px;
+	_height: 450px;
+	padding-bottom: 20px;
+}
+
+#leftColumn {
+	float: left;
+}
+
+#rightColumn {
+	margin-right: 44px;
+	margin-left: 205px;
+	padding: 15px;
+	padding-right: 20px;
+	font-size: 1.1em;
+}
+
+#nav {
+	margin-left: 44px;
+	padding-top: 20px;
+}
+
+
+#footerLinks {
+	text-align: center;
+	padding-bottom: 20px;
+	width: 700px;
+	margin: auto;
+	line-height: 20px;
+}
+
+#footerLinks a {
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #060;
+}
+
+#footerLinks a:hover {
+	color: #090;
+}
+
+#address {
+	padding-bottom: 15px;
+}
+
+#phone {
+	padding-bottom: 25px;
+}
+
+#map {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#job {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#jobTitle {
+	font-weight: bold;
+	padding-bottom: 10px;
+	color: #039;
+}
+
+#jobListTitle {
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #039;
+}
+
+#promo {
+	margin-bottom: 20px;
+}
+
+#badges {
+	float: right;
+}
+
+#divider {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+#homepage {
+	margin-right: 141px;
+	padding-right: 15px;
+}
+
+#intro {
+	background-image: url(../images/intro_background.gif);
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	padding-top: 55px;
+	padding-left: 10px;
+	padding-right: 10px;
+	min-height: 240px;
+	_height: 240px;
+}
+
+#video {
+	padding-bottom: 30px;
+}
+
+.badge {
+	padding-bottom: 20px;
+}
+
+.mainHeading {
+	color: #C00;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding-top: 20px;
+	text-decoration: underline;
+}
+
+.heading {
+	font-weight: bold;
+	padding-top: 20px;
+	color: #039;
+}
+
+.headingNoPadding {
+	font-weight: bold;
+	color: #039;
+	padding-top: 16px;
+}
+
+.question {
+	font-weight: bold;
+	padding-bottom: 5px;
+	color: #039;
+}
+
+.answer {
+	padding-bottom: 30px;
+}
+
+.smallPadding {
+	padding-bottom: 5px;
+}
+
+.contactLabel {
+	font-weight: bold;
+	color: #039;
+}
+
+.disclaimer {
+	font-style: italic;
+}
+
+
+table.aba {
+	border-collapse: collapse;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #FC0;
+	width: 100%;
+}
+
+table.aba td {
+	padding: 5px;
+}
+
+.tableStripe1 {
+	background-color: #FFFBDE;
+}
+
+.tableStripe2 {
+	background-color: #FFF7B6;
+}
+
+.homepageLink {
+	text-align: right;
+	padding-top: 15px;
+}
+
+.testimonial {
+	font-style: italic;
+}
+
+.testimonialAuthor {
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 20px;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: #039;
+}
+
+.donorRow {
+	padding-top:: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+.donorPadding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+table.camp td {
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	padding: 5px;
+	background-color: #FFFBDE;
+	text-align: center;
+}
+
+table.camp th {
+	border-style: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+	padding: 5px;
+	background-color: #FFF7B6;
+	font-weight: bold;
+}
+
+table.camp td.campLabel {
+	background-color: #FFF7B6;
+	text-align: left;
+	font-weight: bold;
+}
+
+.hrule {
+	margin-top:25px;
+	margin-bottom:10px;
+	background-image: url(../images/hr.gif);
+	min-height: 1px;
+	_height: 1px;
+}
+
+.pullQuote {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	color: #336;
+}
+
+/* ------------------------ */
+
+#picHomepage {
+	padding-left: 50px;
+}
+
+#picRight {
+	float: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#picLeft {
+	float: left;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 10px;
+}
+
+#picCenter {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#picFaq {
+	float: right;
+	padding-top: 0px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+table.donors {
+	border: 0px;
+}
+
+table.donors td {
+	width: 285px;
+	padding-top: 4px;
+}
+
+.majorDonor {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	padding-right: 3px;
+	text-align:center;
+}
+
+.minorDonorLeft {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.minorDonorRight {
+	text-align: left;
+	padding-left: 10px;
+}
